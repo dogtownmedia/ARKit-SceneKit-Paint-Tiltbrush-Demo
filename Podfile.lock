@@ -1,0 +1,25 @@
+PODS:
+  - ChromaColorPicker (1.3)
+  - Spring (1.0.3)
+
+DEPENDENCIES:
+  - ChromaColorPicker
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift4`)
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift4
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 934034691ea3b9c63d0d0dc6a5dd9de1b28b7119
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  ChromaColorPicker: fa1c6f52e0e76cb027b61149b42c83c0e78ef3a6
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+
+PODFILE CHECKSUM: 6fc64224892d798ba022598423d2f2fe5dbf442e
+
+COCOAPODS: 1.1.1

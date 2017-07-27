@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38D42A4E78ECF0099EE46EB6 /* Pods_ARKitDraw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFCB0150C023C23ADA96342 /* Pods_ARKitDraw.framework */; };
+		43A32DF91EF0672C004C32DB /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A32DF81EF0670B004C32DB /* SCNVector3+Extensions.swift */; };
+		DC1787351F27B5CF0074765C /* SCNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1787341F27B5CF0074765C /* SCNode+Extensions.swift */; };
+		DC9869581EE8D7BE007DDA39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9869571EE8D7BE007DDA39 /* AppDelegate.swift */; };
+		DC98695A1EE8D7BE007DDA39 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9869591EE8D7BE007DDA39 /* art.scnassets */; };
+		DC98695C1EE8D7BE007DDA39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC98695B1EE8D7BE007DDA39 /* ViewController.swift */; };
+		DC98695F1EE8D7BE007DDA39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC98695D1EE8D7BE007DDA39 /* Main.storyboard */; };
+		DC9869611EE8D7BE007DDA39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9869601EE8D7BE007DDA39 /* Assets.xcassets */; };
+		DC9869641EE8D7BE007DDA39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9869621EE8D7BE007DDA39 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43A32DF81EF0670B004C32DB /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
+		66534687198DB3179E95165C /* Pods-ARKitDraw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKitDraw.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARKitDraw/Pods-ARKitDraw.debug.xcconfig"; sourceTree = "<group>"; };
+		BCFCB0150C023C23ADA96342 /* Pods_ARKitDraw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARKitDraw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1787341F27B5CF0074765C /* SCNode+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNode+Extensions.swift"; sourceTree = "<group>"; };
+		DC9869541EE8D7BE007DDA39 /* ARKitDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9869571EE8D7BE007DDA39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC9869591EE8D7BE007DDA39 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		DC98695B1EE8D7BE007DDA39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC98695E1EE8D7BE007DDA39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC9869601EE8D7BE007DDA39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC9869631EE8D7BE007DDA39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC9869651EE8D7BE007DDA39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3FDA421D8ABDD6617003D32 /* Pods-ARKitDraw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKitDraw.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARKitDraw/Pods-ARKitDraw.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC9869511EE8D7BE007DDA39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D42A4E78ECF0099EE46EB6 /* Pods_ARKitDraw.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC1787311F27B50F0074765C /* SceneKitAssets */ = {
+			isa = PBXGroup;
+			children = (
+				DC9869591EE8D7BE007DDA39 /* art.scnassets */,
+				DC9869601EE8D7BE007DDA39 /* Assets.xcassets */,
+			);
+			path = SceneKitAssets;
+			sourceTree = "<group>";
+		};
+		DC1787321F27B5330074765C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DC98695B1EE8D7BE007DDA39 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DC1787331F27B53D0074765C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				43A32DF81EF0670B004C32DB /* SCNVector3+Extensions.swift */,
+				DC1787341F27B5CF0074765C /* SCNode+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DC6EECA01F27B9EF006CF37D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DC98695D1EE8D7BE007DDA39 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		DC6EECA11F27BA00006CF37D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				DC9869571EE8D7BE007DDA39 /* AppDelegate.swift */,
+				DC9869621EE8D7BE007DDA39 /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		DC98694B1EE8D7BD007DDA39 = {
+			isa = PBXGroup;
+			children = (
+				DC9869561EE8D7BE007DDA39 /* ARKitDraw */,
+				DC9869551EE8D7BE007DDA39 /* Products */,
+				F7AD13069BBD5FDD3DC52A89 /* Pods */,
+				E0D34FE5007803EE0F8F0E27 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC9869551EE8D7BE007DDA39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC9869541EE8D7BE007DDA39 /* ARKitDraw.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC9869561EE8D7BE007DDA39 /* ARKitDraw */ = {
+			isa = PBXGroup;
+			children = (
+				DC9869651EE8D7BE007DDA39 /* Info.plist */,
+				DC1787331F27B53D0074765C /* Extensions */,
+				DC1787311F27B50F0074765C /* SceneKitAssets */,
+				DC6EECA01F27B9EF006CF37D /* Storyboards */,
+				DC6EECA11F27BA00006CF37D /* SupportingFiles */,
+				DC1787321F27B5330074765C /* ViewControllers */,
+			);
+			path = ARKitDraw;
+			sourceTree = "<group>";
+		};
+		E0D34FE5007803EE0F8F0E27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCFCB0150C023C23ADA96342 /* Pods_ARKitDraw.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7AD13069BBD5FDD3DC52A89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66534687198DB3179E95165C /* Pods-ARKitDraw.debug.xcconfig */,
+				F3FDA421D8ABDD6617003D32 /* Pods-ARKitDraw.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC9869531EE8D7BE007DDA39 /* ARKitDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9869681EE8D7BE007DDA39 /* Build configuration list for PBXNativeTarget "ARKitDraw" */;
+			buildPhases = (
+				620DB18FE37AF04082B92E94 /* [CP] Check Pods Manifest.lock */,
+				DC9869501EE8D7BE007DDA39 /* Sources */,
+				DC9869511EE8D7BE007DDA39 /* Frameworks */,
+				DC9869521EE8D7BE007DDA39 /* Resources */,
+				E8181431DC3B617F0D050F3A /* [CP] Embed Pods Frameworks */,
+				788999DCEFDD0983DB73347B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARKitDraw;
+			productName = ARKitDraw;
+			productReference = DC9869541EE8D7BE007DDA39 /* ARKitDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC98694C1EE8D7BD007DDA39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Felix Lapalme";
+				TargetAttributes = {
+					DC9869531EE8D7BE007DDA39 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = DC98694F1EE8D7BD007DDA39 /* Build configuration list for PBXProject "ARKitDraw" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC98694B1EE8D7BD007DDA39;
+			productRefGroup = DC9869551EE8D7BE007DDA39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC9869531EE8D7BE007DDA39 /* ARKitDraw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC9869521EE8D7BE007DDA39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC98695A1EE8D7BE007DDA39 /* art.scnassets in Resources */,
+				DC9869641EE8D7BE007DDA39 /* LaunchScreen.storyboard in Resources */,
+				DC9869611EE8D7BE007DDA39 /* Assets.xcassets in Resources */,
+				DC98695F1EE8D7BE007DDA39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		620DB18FE37AF04082B92E94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		788999DCEFDD0983DB73347B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARKitDraw/Pods-ARKitDraw-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8181431DC3B617F0D050F3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARKitDraw/Pods-ARKitDraw-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC9869501EE8D7BE007DDA39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A32DF91EF0672C004C32DB /* SCNVector3+Extensions.swift in Sources */,
+				DC1787351F27B5CF0074765C /* SCNode+Extensions.swift in Sources */,
+				DC98695C1EE8D7BE007DDA39 /* ViewController.swift in Sources */,
+				DC9869581EE8D7BE007DDA39 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC98695D1EE8D7BE007DDA39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC98695E1EE8D7BE007DDA39 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		DC9869621EE8D7BE007DDA39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC9869631EE8D7BE007DDA39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC9869661EE8D7BE007DDA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC9869671EE8D7BE007DDA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC9869691EE8D7BE007DDA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66534687198DB3179E95165C /* Pods-ARKitDraw.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F8ZLKD2DXN;
+				INFOPLIST_FILE = ARKitDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lapfelix.ARKitDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC98696A1EE8D7BE007DDA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3FDA421D8ABDD6617003D32 /* Pods-ARKitDraw.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F8ZLKD2DXN;
+				INFOPLIST_FILE = ARKitDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lapfelix.ARKitDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC98694F1EE8D7BD007DDA39 /* Build configuration list for PBXProject "ARKitDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9869661EE8D7BE007DDA39 /* Debug */,
+				DC9869671EE8D7BE007DDA39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC9869681EE8D7BE007DDA39 /* Build configuration list for PBXNativeTarget "ARKitDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9869691EE8D7BE007DDA39 /* Debug */,
+				DC98696A1EE8D7BE007DDA39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC98694C1EE8D7BD007DDA39 /* Project object */;
+}
