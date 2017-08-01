@@ -1,6 +1,8 @@
 # ARKit-SceneKit-Paint-Tiltbrush-Demo
 
 ## Description
+<img src="https://github.com/dogtownmedia/ARKit-SceneKit-Paint-Tiltbrush-Demo/blob/master/arkit-animal.gif" align="left" width="300">
+
 Recreating aspects of tiltbrush using iOS11's ARKit.
 
 This app demos Apple's new ARKit by using a drawing mechanism in SceneKit, and renders the drawing in world space. A user can select different colors to add to their creation. 
