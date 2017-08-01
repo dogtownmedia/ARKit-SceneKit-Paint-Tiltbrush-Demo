@@ -3,9 +3,11 @@
 ## Description
 Recreating aspects of tiltbrush using iOS11's ARKit.
 
+This app demos Apple's new ARKit by using a drawing mechanism in SceneKit, and renders the drawing in world space. A user can select different colors to add to their creation. 
+
 
 ## Requirements
-XCode 9.0 beta & iOS11 beta installed on your deviceARKit
+XCode 9.0 beta & iOS11 beta installed on your device
 
 
 ## License
